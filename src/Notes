@@ -1,0 +1,55 @@
+	//variables
+	String name2 = "x", perfectDate2 = "x", dinner2 = "x",
+			dwarf2 = "x", color2 = "x", pet2 = "x", princess2 = "x";
+
+	//array for person two
+	String[] P2Array = new String[6];
+	
+	//	@Override
+//	public void actionPerformed(ActionEvent e) {
+//		// TODO Auto-generated method stub
+//	}
+	
+	
+	public static void nextQuestion(int count, Scanner scan) {
+		if(count == 1) {
+        	textArea.append("Please enter your name");
+        	name1 = scan.nextLine(); 
+        	textArea.append(name1);
+        	count++;
+         } else if(count==2){
+        	textArea.append("What is your perfect date?");
+ 			perfectDate1 = scan.nextLine();
+ 			textArea.append(perfectDate1);
+        	count++;
+         } else if(count==3){
+        	textArea.append("What is your perfect dinner? ");
+ 			dinner1 = scan.nextLine();
+ 			textArea.append(dinner1);
+        	count++;
+         } else if(count==4){
+        	textArea.append("What is your favorite dwarf from snow white?");
+ 			dwarf1 = scan.nextLine();
+ 			textArea.append(dwarf1);
+        	count++;
+         } else if(count==5){
+        	textArea.append("What is your favorite color?");
+ 			color1 = scan.nextLine();
+ 			textArea.append(color1);
+        	count++;
+         } else if(count==6){
+        	textArea.append("What is your favorite animal?");
+ 			pet1 = scan.nextLine();
+ 			textArea.append(pet1);
+        	count++;
+         } else if(count==7){
+        	textArea.append("What is your favorite disney princess?");
+ 			princess1 = scan.nextLine();
+ 			textArea.append(princess1);
+        	count++;
+         } else if(count==8){
+        	textArea.append("Please pass the device to the next player");
+         }
+	}
+	
+	
